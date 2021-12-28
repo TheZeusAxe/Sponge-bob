@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+body{
+    font-family: 'Oswald', sans-serif;
+    background-image: url("../img/backround1.jpg");
+    font-size: 24px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-wrapper{
+    width: 1080px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 140px;
+}
+.logo{
+    width: 130px;
+}
+.nav-link{
+    font-weight: bold;
+    color: black;
+    margin-left: 30px;
+    text-decoration: none;
+}
+.nav-link:hover{
+    border-bottom:  #e95353 3px dashed;
+}
+h1{
+    color: gray;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.section-wrapper{
+    text-align: center;
+    width: 1180px;
+    margin: 0 auto;
+}
+section{
+    background-color: #f0e1d2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+}
+.about-img{
+    opacity: 0.7;
+    width: 350px;
+}
+.characters{
+    background-image: url("../img/backsectionopas.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.characters-item{
+    width: 300px;
+    text-align: center;
+}
+.characters-item img{
+    width: 200px;
+}
+.section-wrapper{
+    text-align: center;
+}
+.bucket{
+    width: 500px;
+}
+#a-about{
+    padding-left: 140px;
+}
+.about-wrapper{
+    display: flex;
+}
+footer{
+    text-align: center;
+}
+.competitor-wrapper{
+    display: flex;
+}
